@@ -22,7 +22,7 @@
 #################################################################################
 
 VERSION=$(shell cat ../VERSION)
-DESTDIR?=/usr
+DESTDIR?=$INSTALL/usr
 PREFIX?=/local
 
 LDCONFIG?=ldconfig
